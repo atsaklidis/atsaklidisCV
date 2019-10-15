@@ -1,0 +1,103 @@
+*{
+	font-family:courier new;	
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: url(../images/background2.png);
+	background-size: auto;
+}
+
+ul{
+	position: absolute;
+	top: 25%;
+	left: 7%;
+	list-style-type: none;
+}
+
+ul li{
+	padding-top: 20%;
+	text-align: center;
+}
+
+ul li a{
+	color: white;
+	text-decoration:none;
+	font-size: x-large;
+	padding: 15px 30px;
+}
+
+ul li a:hover{
+	color: #000;
+	background-color: #fff;
+	padding: 15px 30px;
+}
+
+.sidebar{
+	position:absolute;
+	width: 16%;
+	height: 100%;
+	background: rgb(0,0,0,0.8);
+}
+
+.contact {
+	position: fixed;
+	left: 40%;
+	bottom: 20%;
+}
+
+.contact_text {
+	text-align: center;
+	color: grey;
+	font-size: 100%;
+}
+
+.social_media {
+	text-align: center;
+	opacity: 0.3;
+	padding-top: 10%;
+}
+
+a[href^="https"] :hover{
+	width: 20%;
+}
+
+.bio_text {
+	color: grey;
+	text-align: center;
+	font-size: 120%;
+	margin-left: 10%;
+}
+
+.me {
+	text-align: center;
+	padding-top: 10%;
+}
+
+.me .home_text{
+	color: grey;
+	font-size: 100%;
+}
+
+nav li {
+	color: grey;
+	font-size: large;
+}
+.hobbies1{
+	margin-left: 17%;
+	list-style-type: none;
+	text-align: left;
+	position:absolute;
+	width: 40%;
+}
+
+.hobbies2{
+	padding-left: 40%;
+	list-style-type: none;
+	text-align: left;
+	position:absolute;
+	margin-left: 250px;
+	width: 40%;
+}
+
